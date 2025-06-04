@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <title>PRESUPUESTOS</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navigatorBar">
+            <a class="menu" href="./../index.html">INICIO</a>
+            <a class="menu" href="./portfolio.html">GALERIA </a>
+            <a class="menu-active" href="#"> PRESUPUESTOS </a>
+            <a class="menu" href="./contacto.html"> CONTACTO </a>
+        </nav>
+   </header> 
+   
+   <main>
+    <section class="contenido-for">
+        <div class="contenedor">
+        <h2>¡CONTACTANOS SI NECESITAS AYUDA! </h2>
+
+        <form class="formulario">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" pattern="[A-Z, a-z]{3,16}" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Escriba sus apellidos" pattern="[A-Z, a-z]{3,16}" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Escriba su correo electrónico" pattern="[A-Za-z0-9_-.]+@[a-z0-9_-.]+\.[a-z]{2,6}" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Escriba sus teléfono móvil" pattern="[0-9]{9}" required>
+
+            <label for="mensaje">Comentario:</label>
+            <textarea rows="10" cols="40" id="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+            
+            <label for="aviso"><a href="https://www.aepd.es/politica-de-privacidad-y-aviso-legal">Política de privacidad:</a></label>
+            <input type="checkbox" name="aviso" value="si" id="aviso" required>
+
+            <input type="submit" value="enviar">
+
+        
+        </form>
+        </div>
+    </section>
+   </main>
+
+     <footer>
+        <section class="footer">
+        <div class="container">
+            <div class="footer-rows">
+                <div class="footer-links">
+                    <h4>Compañía</h4>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="https://maps.app.goo.gl/PxDAyj4cSNjTrSBB7">Nuestras tiendas</a></li>
+                        <li><a href="https://www.aepd.es/politica-de-privacidad-y-aviso-legal">Política de privacidad</a></li>
+                        <li><a href="#">Afiliate</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Compras</a></li>
+                        <li><a href="#">Pagos y Envios</a></li>
+                        <li><a href="#">Estado de compra</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Tienda</h4>
+                    <ul>
+                        <li><a href="#">Camisetas</a></li>
+                        <li><a href="#">Zapatos</a></li>
+                        <li><a href="#">Conjuntos</a></li>
+                        <li><a href="#">Complementos</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/futbolemotion"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/futbolemotion/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/FutbolEmotion"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/c/futbolemotion"><i class="fab fa-youtube"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+   </footer>
+</body>
+
+
+
+
+
+</html>
